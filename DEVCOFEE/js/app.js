@@ -1,35 +1,35 @@
 const container = document.querySelector(".container");
 const coffees = [
   {
-    name: "Perspiciatis",
+    name: "taxis à N-Y",
     image: "images/coffee1.jpg"
   },
   {
-    name: "Voluptatem",
+    name: "objectif photo",
     image: "images/coffee2.jpg"
   },
   {
-    name: "Explicabo",
+    name: "Apareil photo",
     image: "images/coffee3.jpg"
   },
   {
-    name: "Rchitecto",
+    name: "Couple",
     image: "images/coffee4.jpg"
   },
   {
-    name: " Beatae",
-    image: "images/coffee5.jpg"
+    name: "Flamand rose",
+    image: "images/coffee5.png"
   },
   {
-    name: " Vitae",
-    image: "images/coffee6.jpg"
+    name: " Photo mi-nuit",
+    image: "images/coffee6.jpeg"
   },
   {
-    name: "Inventore",
+    name: "pull vert",
     image: "images/coffee7.jpg"
   },
   {
-    name: "Veritatis",
+    name: "Couple 2",
     image: "images/coffee8.jpg"
   },
   {
@@ -45,7 +45,7 @@ const showCoffees = () => {
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Taste</a>
+                <a class="card--link" href="#">See more</a>
               </div>
               `)
   );
